@@ -694,95 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_aac_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_aac_ov16a1q_front_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_aac_ov64b40_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_aac_ov64b40_wide_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_ofilm_ov08d10_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_ofilm_ov08d10_ultra_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_ofilm_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_ofilm_ov16a1q_front_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_sunny_ov08d10_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_sunny_ov08d10_ultra_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.sensormodule.mondrian_sunny_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mondrian_sunny_ov64b40_wide_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_aac_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_aac_ov16a1q_front_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_aac_ov64b40_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_aac_ov64b40_wide_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_ofilm_ov08d10_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_ofilm_ov08d10_ultra_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_ofilm_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_ofilm_ov16a1q_front_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_sunny_ov08d10_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_sunny_ov08d10_ultra_ii.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/com.qti.tuned.mondrian_sunny_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mondrian_sunny_ov64b40_wide_i.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.2-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.3-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.4-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.4-ext-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.4-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.5-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.5-ext-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.5-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.6-ext-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.6-ext-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.6-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.device@3.7-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device@3.7-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-external.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.4-legacy.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.5-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.5-external.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.5-legacy.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.6-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.6-legacy.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/camx.provider@2.7-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider@2.7-legacy.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/com.qti.settings.fillmore.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.fillmore.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/com.qti.settings.sm8450.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.sm8450.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/hw/audio.primary.taro.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.taro.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/hw/gyro_fusion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gyro_fusion_interface.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libAF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAF.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libSnpeHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV69Stub.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libXMFaceFocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFaceFocus.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_compress_plugin.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_mixer_plugin.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_pcm_plugin.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmclient.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmmixer.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-acdb.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gpr.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gsl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libats.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocloudctrl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcamxcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxcommonutils.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcamxsettingsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxsettingsmanager.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcapiv2svacnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnnvendor.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcapiv2svarnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnnvendor.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libcapiv2uvvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2uvvendor.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfmpal.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkaraokepal.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-ar_util.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-osal.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcs.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemunreachable.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_utils.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpalclient.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqshcamera.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigefar.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libquickcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquickcamera.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndcardparser.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnpe_dsp_domains_v2.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libsnpe_dsp_domains_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnpe_dsp_domains_v3.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynx.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxlog.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/libxmi_slow_motion_mein.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxmi_slow_motion_mein.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/bm2n00.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n00.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/bm2n01.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n01.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/bm2n02.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm2n02.bin \
@@ -864,10 +775,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/misound_res_spk4ch.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk4ch.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/rfsa/adsp/weak_refs.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/weak_refs.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0-impl.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0.so \
-    vendor/xiaomi/mondrian/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/camera/com.qti.actuator.mondrian_aac_ov64b40_dw9800v_wide_ii_actuator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.mondrian_aac_ov64b40_dw9800v_wide_ii_actuator.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/camera/com.qti.actuator.mondrian_sunny_ov64b40_dw9800v_wide_i_actuator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.mondrian_sunny_ov64b40_dw9800v_wide_i_actuator.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/camera/com.qti.eeprom.mondrian_aac_ov16a1q_gt24p64e_front_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.mondrian_aac_ov16a1q_gt24p64e_front_ii_eeprom.so \
