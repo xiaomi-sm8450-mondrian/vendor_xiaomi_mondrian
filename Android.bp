@@ -3488,7 +3488,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro-mondrian.so"],
-			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libultrasound_notify", "libresampler", "libhardware_legacy", "libaudiocloudctrl", "gyro_fusion_interface", "libstagefright_foundation", "libtinyalsa", "libxlog", "vendor.qti.hardware.pal@1.0-impl", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libultrasound_notify", "libar-pal", "libresampler", "libhardware_legacy", "libaudiocloudctrl", "gyro_fusion_interface", "libstagefright_foundation", "libtinyalsa", "libxlog", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4006,7 +4006,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
-			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libagmclient", "libaudioroute_ext", "libxlog", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libar-gsl", "liblog", "libexpat", "liblx-osal", "libaudioroute", "libcutils", "libaudioroute_ext", "libxlog", "libtinyalsa", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4908,7 +4908,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libkaraokepal.so"],
-			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "audio.primary.taro-mondrian", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro-mondrian", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
