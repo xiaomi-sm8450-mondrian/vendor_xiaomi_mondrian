@@ -635,13 +635,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/evautil64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.mdt \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/gmu_gen70000.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70000.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_cfg_group_m11a.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_m11a.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_cfg_group_m11a_new.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_m11a_new.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_firmware_m11a.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_m11a.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_firmware_m11a_new.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_m11a_new.bin \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_normalize.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_normalize.csv \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_normalize_1.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_normalize_1.csv \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_test_limits_1_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_test_limits_1_255.csv \
-    vendor/xiaomi/mondrian/proprietary/vendor/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_test_limits_255.csv \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/novatek_spi_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_spi_fw.bin \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
     vendor/xiaomi/mondrian/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
@@ -1130,5 +1124,4 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
     batterysecret \
     vendor.qti.camera.provider@2.7-service_64 \
-    vendor.xiaomi.hardware.quickcamera@1.0-service \
-    touch_report
+    vendor.xiaomi.hardware.quickcamera@1.0-service

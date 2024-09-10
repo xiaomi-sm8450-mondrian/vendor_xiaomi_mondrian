@@ -7208,20 +7208,3 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "touch_report",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/touch_report"],
-			shared_libs: ["libdl", "liblog", "libc", "libm", ],
-		},
-	},
-	compile_multilib: "64",
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
