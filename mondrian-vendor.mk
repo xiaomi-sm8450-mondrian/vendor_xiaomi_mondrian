@@ -782,7 +782,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.smooth_transition \
     libdepthmapwrapper_secure \
     libQnnHtp \
-    libQnnHtpV69Skel \
     libQnnHtpV69Stub \
     com.xiaomi.plugin.anchor \
     com.xiaomi.plugin.arcsoftsll \
